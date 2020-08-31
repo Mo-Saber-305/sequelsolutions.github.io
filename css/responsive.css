@@ -1,0 +1,201 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    /*Start Top Header*/
+    header .top-header .box {
+        justify-content: center;
+    }
+    header .top-header .box1 {
+        margin-bottom: 8px;
+    }
+    header .top-header .box2 a {
+        width: 30px;
+        height: 30px;
+    }
+    header .top-header .box2 a i {
+        font-size: 14px;
+        vertical-align: revert;
+    }
+    /*End Top Header*/
+
+    /****************************************/
+
+    /*Start Navbar*/
+    .navbar .navbar-brand img {
+        height: 35px;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        margin: auto;
+    }
+    .navbar-light .navbar-nav {
+        margin-top: 10px;
+    }
+    /*End Navbar*/
+
+    /****************************************/
+
+    /*Start slider*/
+    .slider .carousel-item .carousel-content .carousel-box {
+        width: 75%;
+    }
+    .slider .carousel-item .carousel-content .carousel-box h2 {
+        font-size: 25px;
+        margin-bottom: 16px;
+    }
+    .slider .carousel-item .carousel-content .carousel-box p {
+        font-size: 15px;
+    }
+    .slider .carousel-item .carousel-content .carousel-box .box-btn {
+        font-size: 16px;
+    }
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        width: 25px;
+    }
+    /*End slider*/
+
+    /****************************************/
+
+    /*Start Industries*/
+    .industries .layer .box2 .box-content div {
+        height: auto;
+    }
+    /*end Industries*/
+
+    /****************************************/
+
+    /*Start About us*/
+    .about-us .box1 {
+        margin-bottom: 35px;
+    }
+    .about-us .box2 .box-content:first-of-type {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .about-us .box2 .box-content:first-of-type h5 {
+        font-size: 25px;
+    }
+    .about-us .box2 .box-content:last-of-type section {
+        padding: 20px;
+    }
+    /*End About us*/
+
+    /****************************************/
+
+    /*Start Pricing*/
+    .pricing .layer .box2 .box-content .section1 {
+        text-align: center;
+    }
+    .pricing .layer .box2 .box-content .section1 h3 {
+        font-size: 25px;
+    }
+    .pricing .layer .box2 .box-content .section2 ul li {
+        line-height: 2;
+    }
+    /*End Pricing*/
+
+    /****************************************/
+
+    /*Start Footer*/
+    footer .top-footer .box1 {
+        margin-bottom: 30px;
+    }
+    footer .top-footer .box1 img {
+        height: 55px;
+        margin-bottom: 20px;
+    }
+    footer .top-footer .box1 p {
+        font-size: 15px;
+    }
+    footer .top-footer .box2 {
+        margin-bottom: 30px;
+    }
+    /*End Footer*/
+}
+
+/********************************************************************************************************/
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /*Start top header*/
+    header .top-header .box1 {
+        margin-bottom: 10px;
+    }
+    header .top-header .box {
+        justify-content: center;
+    }
+    /*End top header*/
+
+    /****************************************/
+
+    /*Start Navbar*/
+    .navbar-light .navbar-nav .nav-link {
+        margin: auto;
+    }
+    /*End Navbar*/
+
+    /****************************************/
+
+    /*Start slider*/
+    .slider .carousel-item .carousel-content .carousel-box {
+        width: 70%;
+    }
+    .slider .carousel-item .carousel-content .carousel-box h2 {
+        font-size: 40px;
+        margin-bottom: 16px;
+    }
+    .slider .carousel-item .carousel-content .carousel-box p {
+        font-size: 18px;
+    }
+    /*End slider*/
+
+    /****************************************/
+
+    /*Start Industries*/
+    .industries .layer .box2 .box-content div {
+        height: auto;
+    }
+    /*end Industries*/
+
+    /****************************************/
+
+    /*Start About us*/
+    .about-us .box1 {
+        margin-bottom: 35px;
+    }
+    .about-us .box2 .box-content:first-of-type {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .about-us .box2 .box-content:first-of-type h5 {
+        font-size: 25px;
+    }
+    /*End About us*/
+
+    /****************************************/
+
+    /*Start Footer*/
+    footer .top-footer .box1 {
+        margin-bottom: 30px;
+    }
+    footer .top-footer .box2 {
+        margin-bottom: 30px;
+    }
+    /*End Footer*/
+}
+
+/********************************************************************************************************/
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+}
